@@ -17,10 +17,10 @@ function App() {
                         </span>
                     </a>
                     <nav className='flex items-center'>
-                      <ul className='flex flex-inline text-xl font-medium gap-x-3'>
-                        <li><a href="" className='text-pink-300'>Home</a> |</li>
-                        <li><a href="" className='text-pink-300'>About</a> |</li>
-                        <li><a href="" className='text-pink-300'>Projects</a></li>
+                      <ul className='flex flex-inline text-xl font-medium gap-x-3 text-pink-300'>
+                        <li><a href="" className='hover:underline'>Home</a> |</li>
+                        <li><a href="" className='hover:underline'>About</a> |</li>
+                        <li><a href="" className='hover:underline'>Projects</a></li>
                       </ul>
                     </nav>
                   </div>
