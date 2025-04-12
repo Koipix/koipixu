@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithubAlt, faXTwitter, faItchIo } from '@fortawesome/free-brands-svg-icons'
+
 function Home() {
     return (
         <section>
@@ -15,13 +18,28 @@ function Home() {
                 </div>
             </h1>
             <p className="text-2xl text-gray-200 mt-10 font-medium">
-                An aspiring student currently working on small projects specially game-dev and also anime art!
+                An aspiring student currently working on small projects as indie game-dev and also anime art!
             </p>
-            <div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+            <div className='mt-15'>
+                <ul className='flex flex-row gap-x-10 text-5xl font-normal'>
+                    <li className='flex flex-col'>
+                        <a href="https://github.com/koipix" className='flex flex-col hover:text-pink-300'>
+                            <FontAwesomeIcon icon={faGithubAlt}/>
+                        </a>
+                        <p className='text-xl mt-2'>Github</p>
+                    </li>
+                    <li className='flex flex-col'>
+                    <a href="https://x.com/Koipixu" className='flex flex-col hover:text-pink-300'>
+                            <FontAwesomeIcon icon={faXTwitter}/>
+                        </a>
+                        <p className='text-xl mt-2'>Twitter</p>
+                    </li>
+                    <li className='flex flex-col'>
+                    <a href="https://koipix.itch.io/" className='flex flex-col hover:text-pink-300'>
+                            <FontAwesomeIcon icon={faItchIo}/>
+                        </a>
+                        <p className='text-xl mt-2'>Itch.io</p>
+                    </li>
                 </ul>
             </div>
         </section>
