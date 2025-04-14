@@ -19,7 +19,7 @@ function Home() {
                 </div>
             </h1>
             <p className="text-2xl text-gray-200 mt-10 font-medium">
-                An aspiring student currently working on small projects as indie game-dev and also anime art!
+                An aspiring student currently working on small projects as indie game-dev, research and also anime art!
             </p>
             <div className='mt-15'>
                 <ul className='flex flex-row gap-x-10 text-5xl font-normal'>
@@ -49,8 +49,8 @@ function Home() {
           <dl className="grid grid-cols-2 gap-4">
             <div className="rounded-lg bg-mantle p-4 text-accent shadow-md transition-shadow">
               <dt>
-                <span>
-                  <a className="text-2xl text-pink-300">
+                <span className="underline underline-offset-3 hover:decoration-2">
+                  <a href="https://koipix.itch.io/inevitable-fate" className="text-2xl text-pink-200">
                     Inevatable Fate
                   </a>
                 </span>
@@ -61,8 +61,8 @@ function Home() {
             </div>
             <div className="rounded-lg bg-mantle p-4 text-accent shadow-md transition-shadow">
               <dt>
-                <span>
-                  <a className="text-2xl text-pink-300">
+                <span className="underline underline-offset-3 hover:decoration-2">
+                  <a href="https://github.com/Koipix/Arona" className="text-2xl text-pink-200">
                     Arona Discord Bot
                   </a>
                 </span>
