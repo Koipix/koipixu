@@ -56,21 +56,45 @@ function Home() {
                 </span>
               </dt>
               <dd className="mt-3 text-gray-200 text-lg">
-                A game project we made as a team in submission for Brackeys Jam 2025.1.1
+                A rougelite game project we made as a team in submission for Brackey's Game Jam
               </dd>
             </div>
             <div className="rounded-lg bg-mantle p-4 text-accent shadow-md transition-shadow">
               <dt>
                 <span className="underline underline-offset-3 hover:decoration-2">
                   <a href="https://github.com/Koipix/Arona" className="text-2xl text-pink-200">
-                    Arona Discord Bot
+                    Arona
                   </a>
                 </span>
               </dt>
               <dd className="mt-3 text-gray-200 text-lg">
                 Arona is a flexible discord bot with fun features like minigames and integrated language model
               </dd>
-            </div> 
+            </div>
+            <div className="rounded-lg bg-mantle p-4 text-accent shadow-md transition-shadow">
+              <dt>
+                <span className="underline underline-offset-3 hover:decoration-2">
+                  <a href="https://github.com/Koipix/todo" className="text-2xl text-pink-200">
+                    Todo
+                  </a>
+                </span>
+              </dt>
+              <dd className="mt-3 text-gray-200 text-lg">
+                A simple lightweight todo cli program written in RUST for the sillies
+              </dd>
+            </div>
+            <div className="rounded-lg bg-mantle p-4 text-accent shadow-md transition-shadow">
+              <dt>
+                <span className="underline underline-offset-3 hover:decoration-2">
+                  <a href="https://github.com/Koipix/4cboard" className="text-2xl text-pink-200">
+                    4cboard
+                  </a>
+                </span>
+              </dt>
+              <dd className="mt-3 text-gray-200 text-lg">
+                A anonymous confession bulletin board inspired by 4chan's anonymity system for my school project
+              </dd>
+            </div>
           </dl>
         </section>
       </>
