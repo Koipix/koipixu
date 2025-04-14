@@ -46,7 +46,7 @@ function Home() {
         </section>
         <section className="mt-15">
           <h1 className="text-3xl mb-5"> Projects </h1>
-          <dl className="grid grid-cols-2 gap-4">
+          <dl className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div className="rounded-lg bg-mantle p-4 text-accent shadow-md transition-shadow">
               <dt>
                 <span className="underline underline-offset-3 hover:decoration-2">
