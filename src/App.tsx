@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="flex justify-center">
             <div className="w-4/5 mt-20 max-w-4xl">
-                <header className="mb-18">
+                <header className="mb-24">
                   <div className='flex justify-between'>
                     <a href="https://github.com/koipix" className="inline-flex items-center">
                         <img src="https://avatars.githubusercontent.com/u/92094832?v=4" 
