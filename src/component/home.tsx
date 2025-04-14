@@ -104,6 +104,26 @@ function Home() {
             </div>
           </dl>
         </section>
+        <section className="mt-18">
+          <h1 className="text-3xl mb-5">Pookies :3</h1>
+          <div className="flex flex-wrap gap-4">
+            <a>
+              <img src="/pookies/jasussy.jpg" alt="jason" className="h-24 w-24 rounded-lg shadow-md"/>
+            </a>
+            <a>
+              <img src="/pookies/elle.jpg" alt="elle" className="h-24 w-24 rounded-lg shadow-md"/>
+            </a>
+            <a>
+              <img src="/pookies/shinya.jpg" alt="shinya" className="h-24 w-24 rounded-lg shadow-md"/>
+            </a>
+            <a>
+              <img src="/pookies/shigemi.jpg" alt="shigemi" className="h-24 w-24 rounded-lg shadow-md"/>
+            </a>
+            <a>
+              <img src="/pookies/kumi.jpg" alt="kumi" className="h-24 w-24 rounded-lg shadow-md"/>
+            </a> 
+          </div>
+        </section>
       </>
     )
 }
