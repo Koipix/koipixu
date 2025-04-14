@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubAlt, faXTwitter, faItchIo } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
     return (
@@ -40,6 +41,12 @@ function Home() {
                             <FontAwesomeIcon icon={faItchIo}/>
                         </a>
                         <p className='text-xl mt-2'>Itch.io</p>
+                    </li>
+                    <li className='flex flex-col'>
+                    <a href="mailto:koi.devt@gmail.com" className='flex flex-col hover:text-pink-300'>
+                            <FontAwesomeIcon icon={faEnvelope}/>
+                        </a>
+                        <p className='text-xl mt-2'>Email</p>
                     </li>
                 </ul>
             </div>
