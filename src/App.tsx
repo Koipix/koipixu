@@ -17,7 +17,7 @@ function App() {
                         </span>
                     </a>
                     <nav className='flex items-center'>
-                      <ul className='flex flex-inline text-xl font-medium gap-x-3 text-pink-300'>
+                      <ul className='flex flex-inline text-xl font-medium gap-x-3 text-pink-200'>
                         <li><a href="" className='hover:underline'>Home</a> |</li>
                         <li><a href="" className='hover:underline'>About</a> |</li>
                         <li><a href="" className='hover:underline'>Projects</a></li>

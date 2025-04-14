@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+  --color-crust: #181926;
+  --color-mantle: #1e2030;
+}
