@@ -26,6 +26,8 @@ function App() {
                   </div>
                 </header>
                 <Home/>
+                <footer className="mt-30">
+                </footer>
             </div>
         </div>
     </>
