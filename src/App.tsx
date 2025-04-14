@@ -2,10 +2,12 @@ import './App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
 import Home from './component/home.tsx'
 import { faBars, faHeart } from '@fortawesome/free-solid-svg-icons'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   return (
     <>
+      <Analytics/>
       <div className="flex justify-center">
             <div className="w-4/5 mt-20 max-w-4xl">
                 <header className="mb-24">
