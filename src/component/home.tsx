@@ -7,7 +7,7 @@ function Home() {
       <>
         <section>
             <h1 className="text-white text-3xl font-semibold">
-                Hi, I'm
+                Nyallo! I'm
                 <div className="mt-3 text-pink-200">
                     <span className="text-base text-gray-400">(ja) </span>
                     コイ
@@ -20,7 +20,7 @@ function Home() {
                 </div>
             </h1>
             <p className="text-2xl text-gray-200 mt-10 font-medium">
-                An aspiring student currently working on small projects as indie game-dev, research and also anime art!
+                Just an aspiring student currently working on small projects as indie game dev, research and also anime art! ^-^
             </p>
             <div className='mt-15'>
                 <ul className='flex flex-row gap-x-10 text-5xl font-normal'>
@@ -58,12 +58,12 @@ function Home() {
               <dt>
                 <span className="underline underline-offset-3 hover:decoration-2">
                   <a href="https://koipix.itch.io/inevitable-fate" className="text-2xl text-pink-200">
-                    Inevatable Fate
+                    Inevitable Fate
                   </a>
                 </span>
               </dt>
               <dd className="mt-3 text-gray-200 text-lg">
-                A rougelite game project we made as a team in submission for Brackey's Game Jam
+                Our team's cute rougelite entry for Brackey's Game Jam, made with heart and a dash of chaos!
               </dd>
             </div>
             <div className="rounded-lg bg-mantle p-4 text-accent shadow-md transition-shadow">
@@ -75,7 +75,7 @@ function Home() {
                 </span>
               </dt>
               <dd className="mt-3 text-gray-200 text-lg">
-                Arona is a flexible discord bot with fun features like minigames and integrated language model
+                Arona is a flexible discord bot with fun features like minigames specially integrated with language model
               </dd>
             </div>
             <div className="rounded-lg bg-mantle p-4 text-accent shadow-md transition-shadow">
@@ -87,7 +87,7 @@ function Home() {
                 </span>
               </dt>
               <dd className="mt-3 text-gray-200 text-lg">
-                A simple lightweight todo cli program written in RUST for the sillies
+                A simple lightweight and fast todo cli program written in RUST for the sillies
               </dd>
             </div>
             <div className="rounded-lg bg-mantle p-4 text-accent shadow-md transition-shadow">
@@ -99,7 +99,7 @@ function Home() {
                 </span>
               </dt>
               <dd className="mt-3 text-gray-200 text-lg">
-                A anonymous confession bulletin board inspired by 4chan's anonymity system for my school project
+                A anonymous confession bulletin board inspired by 4chan's anonymity system for my university project
               </dd>
             </div>
           </dl>
@@ -121,6 +121,9 @@ function Home() {
             </a>
             <a>
               <img src="/pookies/kumi.jpg" alt="kumi" className="h-24 w-24 rounded-lg shadow-md"/>
+            </a>
+            <a>
+              <img src="/pookies/alex.jpg" alt="alex" className="h-24 w-24 rounded-lg shadow-md"/>
             </a> 
           </div>
         </section>
