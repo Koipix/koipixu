@@ -22,8 +22,8 @@ function App() {
                     </a>
                     <nav className='flex items-center'>
                       <ul className='hidden sm:flex flex-inline text-xl font-medium gap-x-3 text-pink-200'>
-                        <li><Link to="/">Home</Link> |</li>
-                        <li><Link to="about"><span className="hover:underline">About</span></Link>|</li>
+                        <li><Link to="/"><span className="hover:underline">Home</span></Link> |</li>
+                        <li><Link to="about"><span className="hover:underline">About</span></Link> |</li>
                         <li><span className="hover:underline">Projects</span></li>
                       </ul>
                     </nav>
