@@ -1,6 +1,6 @@
 function Nyan() {
   return (
-    <h1> What are you doing in this uncharted territory myon~?</h1>
+    <h1 className="text-3xl text-gray-300"> What are you doing in this uncharted territory myon~?</h1>
   )
 }
 
