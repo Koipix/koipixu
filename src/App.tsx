@@ -1,8 +1,8 @@
 import './App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
-import Home from './component/home.tsx'
 import { faBars, faHeart } from '@fortawesome/free-solid-svg-icons'
 import { Analytics } from '@vercel/analytics/react'
+import {Outlet, Link} from 'react-router-dom'
 
 function App() {
   return (
@@ -22,9 +22,9 @@ function App() {
                     </a>
                     <nav className='flex items-center'>
                       <ul className='hidden sm:flex flex-inline text-xl font-medium gap-x-3 text-pink-200'>
-                        <li><a href="" className='hover:underline'>Home</a> |</li>
-                        <li><a href="" className='hover:underline'>About</a> |</li>
-                        <li><a href="" className='hover:underline'>Projects</a></li>
+                        <li><Link to="/">Home</Link> |</li>
+                        <li><Link to="about"><span className="hover:underline">About</span></Link>|</li>
+                        <li><span className="hover:underline">Projects</span></li>
                       </ul>
                     </nav>
                     <button className="block sm:hidden text-4xl text-pink-200">
@@ -32,7 +32,7 @@ function App() {
                     </button>
                   </div>
                 </header>
-                <Home/>
+                <Outlet/>
                 <footer className="mt-30 mb-5">
                   <p className="text-gray-400">Copyright: Koipix 2025 :3</p>
                 </footer>
