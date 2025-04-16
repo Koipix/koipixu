@@ -9,12 +9,15 @@ function About() {
 
     <p className="text-2xl/8 font-medium mt-10">I'm always enthusiastic about the constantly growing technologies and genuinely craving them during my leisure time with a little dip of anime and manga!</p>
 
-    <p className="text-2xl/8 font-medium mt-10"> I used to be the long lost one fellow during my childhood years until my father introduced me to his first PC where I'd just play a few games until hours on end. Here's where my young mind started being curious on how these games actually work behind the scenes.
+    <p className="text-2xl/8 font-medium mt-10"> I used to be the long lost one fellow during my childhood years until my parents introduced me to my first PC where I'd just play a few games until hours on end. Here's where my young mind started being curious on how these games actually work behind the scenes.
     </p>
     <p className="text-2xl/8 font-medium mt-10">So, I started digging deeper and discovered programming where everything looked like an alien scripture for me so I studied how computer components work with their own responsibilites and a ton of research hence I fell to this inescapable rabbit hole which led me here to this present day~
     </p>
     <p className="text-2xl/8 font-medium mt-10">
-      Presently, I've been working on small scale projects while taking Bachelor's degree in Computer Science to understand better and make something for fun out of myself especially game development which is favorable for me, constant research and I also do anime digital art too!  
+      Presently, I've been working on small scale projects while taking Bachelor's degree in Computer Science to acquire knowledge better and make something for fun out of myself especially game development which is currently favorable for me. Been doing a bit of research on LLMs and I also draw anime digital artstyle too!  
+    </p>
+    <p className="text-2xl/8 font-medium mt-10">
+      Thank you for reading my silly past time &lt;3
     </p>
   </>
   ) 
