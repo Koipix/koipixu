@@ -16,8 +16,8 @@ function App() {
   return (
     <>
       <Analytics/>
-        <div className={`text-3xl mt-15 flex justify-end w-full h-40 rounded-md pointer-events-none absolute transition-opacity duration-300 ease-in-out} ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
-          <div className="flex flex-col gap-5 mr-38 p-8 text-pink-200 bg-mantle/30 backdrop-blur-sm rounded-2xl">
+        <div className={`text-2xl mt-40 flex justify-end w-full h-30 rounded-md pointer-events-none absolute transition-opacity duration-300 ease-in-out} ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
+          <div className="flex flex-col gap-3 mr-5 p-6 text-pink-200 bg-mantle/30 backdrop-blur-sm rounded-2xl">
             {menus.map((item) => (
               <Link to={item.path} key={item.text} onClick={() => setIsOpen(false)} className={`${isOpen ? "pointer-events-auto" : "pointer-events-none"}`}>
                 {item.text}
