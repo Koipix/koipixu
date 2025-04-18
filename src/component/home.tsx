@@ -22,7 +22,7 @@ function Home() {
             <p className="text-2xl text-gray-200 mt-10 font-medium">
                 Just an aspiring student currently working on small projects as indie game dev, research and also anime art! ^-^
             </p>
-            <div className='mt-15'>
+            <div className='mt-15 flex justify-center'>
                 <ul className='flex flex-row gap-x-10 text-5xl font-normal'>
                     <li className='flex flex-col'>
                         <a href="https://github.com/koipix" className='flex flex-col hover:text-pink-300'>
@@ -103,6 +103,25 @@ function Home() {
               </dd>
             </div>
           </dl>
+        </section>
+        <section className="mt-15">
+          <h1 className="text-3xl mb-5">Artworks</h1>
+            <div className="carousel w-full sm:flex sm:flex-cols-2 sm:gap-6 sm:justify-center">
+              <div id="slide1" className="carousel-item relative w-full sm:h-135 sm:w-100">
+                <img className="w-full rounded-lg" src="/imgs/art-1.png"/>
+                <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between sm:hidden">
+                  <a href="#slide4" className="btn btn-circle bg-pink-200 text-mantle p-5">❮</a>
+                  <a href="#slide2" className="btn btn-circle bg-pink-200 text-mantle p-5">❯</a>
+                </div>
+              </div>
+              <div id="slide2" className="carousel-item relative w-full sm:h-135 sm:w-105">
+                <img className="w-full rounded-lg" src="/imgs/art-2.png"/>
+                <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between sm:hidden">
+                  <a href="#slide1" className="btn btn-circle bg-pink-200 text-mantle p-5">❮</a>
+                  <a href="#slide3" className="btn btn-circle bg-pink-200 text-mantle p-5">❯</a>
+                </div>
+              </div>
+            </div>
         </section>
         <section className="mt-18">
           <h1 className="text-3xl mb-5">Pookies :3</h1>
