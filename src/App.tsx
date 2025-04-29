@@ -34,18 +34,18 @@ function App() {
                              alt="miii"
                              className="h-24 rounded-xl mr-8"/>
                         <span className="text-gray-200 text-3xl">
-                            Koi <FontAwesomeIcon icon={ faHeart }/>
+                            Koi <FontAwesomeIcon icon={ faHeart } className="text-pink-200"/>
                         </span>
                     </a>
                     <nav className='flex items-center'>
-                      <ul className='hidden sm:flex flex-inline text-xl font-medium gap-x-3 text-pink-200'>
-                        <li><Link to="/"><span className="hover:underline">Home</span></Link> |</li>
-                        <li><Link to="about"><span className="hover:underline">About</span></Link> |</li>
-                        <li><span className="hover:underline">Projects</span></li>
+                      <ul className='hidden sm:flex flex-inline text-xl font-medium gap-x-3 text-pink-200 gap-x-9'>
+                        <li><Link to="/"><span className="hover:underline">Home</span></Link></li>
+                        <li><Link to="about"><span className="hover:underline">About</span></Link></li>
+                        <li><span className="hover:underline">Posts</span></li>
                       </ul>
                     </nav>
                     <button className="block sm:hidden text-4xl text-pink-200"
-                      onClick={() => setIsOpen((prev) => !prev)} >
+                      onClick={() => setIsOpen((prev) => !prev)}>
                       <FontAwesomeIcon icon={faBars}/> 
                     </button>
                   </div>
