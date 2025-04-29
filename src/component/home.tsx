@@ -1,5 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithubAlt, faXTwitter, faItchIo } from '@fortawesome/free-brands-svg-icons'
+import { 
+  faGithubAlt, 
+  faXTwitter, 
+  faItchIo, 
+  faUnity, 
+  faDiscord,
+  faNodeJs
+} from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
@@ -20,7 +27,7 @@ function Home() {
                 </div>
             </h1>
             <p className="text-2xl text-gray-200 mt-10 font-normal">
-                Just an aspiring student currently working on small projects as indie game dev, research and also anime art! ^-^
+                Just an aspiring student currently working on small projects as indie game dev and research, also anime art! ^-^
             </p>
             <div className='mt-15 flex justify-center'>
                 <ul className='flex flex-row gap-x-10 text-5xl font-normal'>
@@ -55,23 +62,28 @@ function Home() {
           <h1 className="text-3xl mb-5"> Projects </h1>
           <dl className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div className="rounded-lg bg-mantle p-4 text-accent shadow-md transition-shadow">
-              <dt>
+              <dt className="flex justify-between items-center">
                 <span className="underline underline-offset-3 hover:decoration-2">
                   <a href="https://koipix.itch.io/inevitable-fate" className="text-2xl text-pink-200">
                     Inevitable Fate
                   </a>
                 </span>
+                <FontAwesomeIcon icon={faUnity} className="text-2xl text-pink-200 mr-1"/>
               </dt>
               <dd className="mt-3 text-gray-200 text-lg font-normal">
                 Our team's cute rougelite entry for Brackey's Game Jam, made with heart and a dash of chaos!
               </dd>
             </div>
             <div className="rounded-lg bg-mantle p-4 text-accent shadow-md transition-shadow">
-              <dt>
+              <dt className="flex justify-between items-center">
                 <span className="underline underline-offset-3 hover:decoration-2">
                   <a href="https://github.com/Koipix/Arona" className="text-2xl text-pink-200">
                     Arona
                   </a>
+                </span>
+                <span className="flex gap-x-2 mr-2">
+                 <FontAwesomeIcon icon={faNodeJs} className="text-2xl text-pink-200"/>
+                 <FontAwesomeIcon icon={faDiscord} className="text-2xl text-pink-200"/>
                 </span>
               </dt>
               <dd className="mt-3 text-gray-200 text-lg font-normal">
