@@ -19,7 +19,7 @@ function Home() {
                     Koi
                 </div>
             </h1>
-            <p className="text-2xl text-gray-200 mt-10 font-medium">
+            <p className="text-2xl text-gray-200 mt-10 font-normal">
                 Just an aspiring student currently working on small projects as indie game dev, research and also anime art! ^-^
             </p>
             <div className='mt-15 flex justify-center'>
@@ -62,7 +62,7 @@ function Home() {
                   </a>
                 </span>
               </dt>
-              <dd className="mt-3 text-gray-200 text-lg">
+              <dd className="mt-3 text-gray-200 text-lg font-normal">
                 Our team's cute rougelite entry for Brackey's Game Jam, made with heart and a dash of chaos!
               </dd>
             </div>
@@ -74,7 +74,7 @@ function Home() {
                   </a>
                 </span>
               </dt>
-              <dd className="mt-3 text-gray-200 text-lg">
+              <dd className="mt-3 text-gray-200 text-lg font-normal">
                 Arona is a flexible discord bot with fun features like minigames specially integrated with language model
               </dd>
             </div>
@@ -86,7 +86,7 @@ function Home() {
                   </a>
                 </span>
               </dt>
-              <dd className="mt-3 text-gray-200 text-lg">
+              <dd className="mt-3 text-gray-200 text-lg font-normal">
                 A simple lightweight and fast todo cli program written in RUST for the sillies
               </dd>
             </div>
@@ -98,7 +98,7 @@ function Home() {
                   </a>
                 </span>
               </dt>
-              <dd className="mt-3 text-gray-200 text-lg">
+              <dd className="mt-3 text-gray-200 text-lg font-normal">
                 A anonymous confession bulletin board inspired by 4chan's anonymity system for my university project
               </dd>
             </div>
