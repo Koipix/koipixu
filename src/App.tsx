@@ -9,6 +9,7 @@ function App() {
   const menus = [
     { text: "Home", path: "/" },
     { text: "About", path: "about" },
+    { text: "Posts", path: "posts"},
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +42,7 @@ function App() {
                       <ul className='hidden sm:flex flex-inline text-xl font-medium gap-x-3 text-pink-200 gap-x-9'>
                         <li><Link to="/"><span className="hover:underline">Home</span></Link></li>
                         <li><Link to="about"><span className="hover:underline">About</span></Link></li>
-                        <li><span className="hover:underline">Posts</span></li>
+                        <li><Link to="posts"><span className="hover:underline">Posts</span></Link></li>
                       </ul>
                     </nav>
                     <button className="block sm:hidden text-4xl text-pink-200"
