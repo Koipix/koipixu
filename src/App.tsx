@@ -2,8 +2,9 @@ import './App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
 import { faBars, faHeart } from '@fortawesome/free-solid-svg-icons'
 import { Analytics } from '@vercel/analytics/react'
-import {Outlet, Link} from 'react-router-dom'
+import { Outlet, Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
+import { AnimatePresence } from 'motion/react'
 
 function App() { 
   const menus = [
@@ -13,6 +14,7 @@ function App() {
   ];
 
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <>
@@ -51,7 +53,9 @@ function App() {
                     </button>
                   </div>
                 </header>
-                <Outlet/>
+                <AnimatePresence mode="wait">
+                  <Outlet key = {location.pathname}/>
+                </AnimatePresence>
                 <footer className="mt-30 mb-5">
                   <p className="text-gray-400">Copyright: Koipix 2025 :3</p>
                 </footer>
