@@ -7,7 +7,7 @@ import About from './component/about.tsx'
 import Post from './component/post.tsx'
 import Nyan from './component/nyan.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { AnimatePresence, motion } from 'motion/react'
+import { motion } from 'motion/react'
 
 const router = createBrowserRouter([
   {
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-function Animator({ children }) {
+function Animator({ children }: {children: React.ReactNode })  {
   return (
     <motion.div
       initial = {{ opacity: 0, x: 5 }}
