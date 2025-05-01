@@ -5,3 +5,7 @@
   --color-crust: #181926;
   --color-mantle: #1e2030;
 }
+
+@utility no-scrollbar {
+  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+}
