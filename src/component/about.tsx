@@ -5,9 +5,20 @@ function About() {
       <img className="rounded-xl" src="/imgs/kana-bg.png" alt="konata"/>
       <h1 className="text-4xl font-bold mb-15 mt-5 text-center">よろしくね〜！ </h1>
 
-      <p className="text-2xl/9 font-medium">You can address me as <span className="font-semibold text-pink-200">Koi</span> under the username of <span className="font-normal bg-mantle px-3 py-1 rounded-lg">@koipix</span>!</p>
+      <p className="text-2xl/9 font-medium">Nyallo! I'm <span className="font-semibold text-pink-200">Koi</span> under the username of <span className="font-normal bg-mantle px-3 py-1 rounded-lg">@koipix</span></p>
+      
+      <h1 className="text-3xl mt-10 border-b-2 border-dashed pb-3">misystewmowo</h1>
 
-    <p className="text-2xl/8 font-medium mt-10">I'm always enthusiastic about the constantly growing technologies and genuinely craving them during my leisure time with a little dip of anime and manga!</p>
+      <p className="mt-7 text-xl font-normal">Operating System: <span className="text-sky-400 font-semibold">Arch Linux x86_64</span></p>
+      <p className="text-xl font-normal">Desktop Enviroment: <span className="text-rose-400 font-semibold">KDE Plasma</span></p>
+      <p className="text-xl font-normal">Code Editor: <span className="text-lime-400 font-semibold">Neovim</span></p>
+      <p className="text-xl font-normal mb-5">Shell: <span className="text-violet-400 font-semibold">Bash</span></p>
+      <p className="text-xl font-normal">CPU: <span className="text-rose-700 font-semibold">AMD Ryzen 5 3600</span></p>
+      <p className="text-xl font-normal">GPU: <span className="text-rose-700 font-semibold">AMD Radeon RX 5700 XT</span></p>
+      <p className="text-xl font-normal pb-7 border-b-2 border-dashed">Display: <span className="text-lime-400">1920x1080 @ 165Hz</span></p>
+      
+
+    <p className="text-2xl/8 font-medium mt-15">I'm always enthusiastic about the constantly growing technologies and genuinely craving them during my leisure time with a little dip of anime and manga!</p>
 
     <p className="text-2xl/8 font-medium mt-10"> I used to be the long lost one fellow during my childhood years until my parents introduced me to my first PC where I'd just play a few games until hours on end. Here's where my young mind started being curious on how these games actually work behind the scenes.
     </p>
