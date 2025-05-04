@@ -29,7 +29,7 @@ function Home() {
                 </div>
             </h1>
             <p className="text-2xl text-gray-200 mt-10 font-normal">
-                Just an aspiring student currently working on small projects as indie game dev and research, also I draw sometimes!
+                Just a <span className="font-semibold text-pink-200">UNIX</span> snob and aspiring student currently working on small projects as indie game dev and research, also draws stuff sometimes! owo
             </p>
             <div className='mt-15 flex justify-center'>
                 <ul className='flex flex-row gap-x-10 text-5xl font-normal'>
