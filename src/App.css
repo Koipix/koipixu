@@ -4,6 +4,7 @@
 @theme {
   --color-crust: #181926;
   --color-mantle: #1e2030;
+  --color-base: #24273a;
 }
 
 @utility no-scrollbar {
