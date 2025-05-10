@@ -1,6 +1,6 @@
 import './App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
-import { faBars, faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faHeart, faCircle } from '@fortawesome/free-solid-svg-icons'
 import { Analytics } from '@vercel/analytics/react'
 import { Outlet, Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
@@ -40,16 +40,19 @@ function App() {
                 <header className="mb-24">
                   <div className='flex justify-between'>
                     <a href="https://github.com/koipix" className="inline-flex items-center">
+                      <div className="relative mr-4">
                         <img src="https://avatars.githubusercontent.com/u/92094832?v=4" 
                              alt="miii"
-                             className="h-24 rounded-xl mr-8"/>
-
+                             className="h-24 rounded-full mr-2 mb-1"
+                        />
+                        <FontAwesomeIcon icon={ faCircle } className={`absolute bottom-0 right-0 text-2xl border-5 border-base rounded-full ${isOnline ? "text-emerald-400" : "text-red-500"}`}/>
+                      </div>
                         <div>
                           <span className="text-gray-200 text-3xl">
                             Koi <FontAwesomeIcon icon={ faHeart } className="text-pink-200"/>
                           </span>
-                          <span className="text-gray-100 text-xl font-normal">
-                            <p className="text-xl">Status: 
+                          <span className="text-gray-100 text-xl font-medium">
+                            <p className="text-xl">DC Status: 
                               <span className={`text-xl ${isOnline ? "text-emerald-400" : "text-red-500"}`}> {isOnline ? "Online" : "Offline"}</span>
                             </p>
                           </span>
