@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/react'
 import { Outlet, Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
 import { AnimatePresence } from 'motion/react'
+import { useLanyard } from 'react-use-lanyard';
 
 function App() { 
   const menus = [
@@ -15,6 +16,12 @@ function App() {
 
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+
+  const lanyard = useLanyard({
+    userId: "864189836541427733",
+  });
+
+  let isOnline = lanyard.data?.data?.discord_status !== "offline";
 
   return (
     <>
@@ -36,9 +43,17 @@ function App() {
                         <img src="https://avatars.githubusercontent.com/u/92094832?v=4" 
                              alt="miii"
                              className="h-24 rounded-xl mr-8"/>
-                        <span className="text-gray-200 text-3xl">
+
+                        <div>
+                          <span className="text-gray-200 text-3xl">
                             Koi <FontAwesomeIcon icon={ faHeart } className="text-pink-200"/>
-                        </span>
+                          </span>
+                          <span className="text-gray-100 text-xl font-normal">
+                            <p className="text-xl">Status: 
+                              <span className={`text-xl ${isOnline ? "text-emerald-400" : "text-red-500"}`}> {isOnline ? "Online" : "Offline"}</span>
+                            </p>
+                          </span>
+                        </div>
                     </a>
                     <nav className='flex items-center'>
                       <ul className='hidden sm:flex flex-inline text-xl font-medium gap-x-3 text-pink-200 gap-x-9'>
