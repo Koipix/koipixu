@@ -15,21 +15,21 @@ function Home() {
     return (
       <>
         <section>
-            <h1 className="text-white text-3xl font-semibold">
+            <h1 className="text-white text-3xl font-medium">
                 Nyallo! I'm
                 <div className="mt-3 text-pink-200">
-                    <span className="text-base text-gray-400">(ja) </span>
+                    <span className="text-gray-400 text-lg">(ja) </span>
                     コイ
                     <br/>
-                    <span className="text-base text-gray-400">(ch) </span>
+                    <span className="text-gray-400 text-lg">(ch) </span>
                     鲤
                     <br/>
-                    <span className="text-base text-gray-400">(en) </span>
+                    <span className="text-gray-400 text-lg">(en) </span>
                     Koi
                 </div>
             </h1>
             <p className="text-2xl text-gray-200 mt-10 font-normal">
-                Just a <span className="font-semibold text-pink-200">UNIX</span> snob and aspiring student currently working on small projects as indie game dev and research, also draws stuff sometimes! owo
+                Just a <span className="font-medium text-pink-200">UNIX</span> snob and aspiring student currently working on small projects as indie game dev and research, also draws stuff sometimes!
             </p>
             <div className='mt-15 flex justify-center'>
                 <ul className='flex flex-row gap-x-10 text-5xl font-normal'>
